@@ -18,5 +18,6 @@ jobs:
         with:
           scan-type: fs
           scan-ref: .
+          scanners: vuln,secret
           severity: HIGH,CRITICAL
           exit-code: 1
